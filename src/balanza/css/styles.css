@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primaryColor:#583d72;
+
+}
+body{
+    background-color: var(--primaryColor);
+}
+
+.balance-container{
+    max-width: 100%;
+    height: 100vh;
+}
+
+.wrapper{
+    padding: 1em;
+}
+
+.balance__navbar{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.profile{
+    color: #fff;   
+}
+
+.profile-name{
+    font-size: 3em;
+}
+
+.profile-sap{
+    font-size: 2em;
+    letter-spacing: 5px;    
+}
+
+.button__logout{
+    background: none;
+    padding: .5em 1em;
+    border: none;
+    color: #ffffff;
+    font-size: 1.5em;
+    display: flex;
+    cursor: pointer;
+}
+.button__logout:hover{
+    background-color: #392b45;
+    border-radius: 6.25em;
+    transition: .1s ease all;
+}
+.button__logout:active{
+    transform: translateX(4px);
+}
+
+.balance__wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.balance{
+    border:2px solid #fff;
+    width: 28.125rem;
+    height:28.125rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.balance__weight{
+    color: #ffffff;
+    font-size: 5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button__send{
+    margin-top: 1em;
+    background: #261d2e;
+    padding: .5em 1.3em;
+    border: none;
+    color: #ffffff;
+    font-size: 1.5em;
+    display: flex;
+    cursor: pointer;
+    border-radius: 6.25em;
+    position: relative;
+}
+.button__send:hover{
+    background: #31253b;
+    transition: .1s ease all;
+}
+
+.button__send:active{
+    transform: translateY(4px);
+}
